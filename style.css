@@ -1,197 +1,156 @@
 @charset "utf-8";
 
-/*
-"paleta de cores do site"
 
-#fff
-#d68e8e
-#ff0bffe0
-rgb(173, 49, 49)
-#776565
-*/
-
-:root{
-   --cor0: #fff;
-   --cor1: #d68e8e;
-   --cor2: #ff0bffe0;
-   --cor3: #ad3131;
-   --cor4: #776565;
-}
 
 body{
-   background-image: url(t.jpg);
-   background-size: 500%;
-   background-attachment: fixed;
+    background: rgba(0, 0, 0, 0.959);
+    background-repeat: no-repeat;
+    background-size: 500%;
+    background-attachment: fixed;
+    color: white;
+    font-family: monospace;
+    background-blend-mode: screen;
+    border-radius: 20px 20px 20px 20px;
+
 }
 
+video{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    animation-delay: 9s;
+}
 
-header > h1{
-   font-family: "chiller";
-   color: var(--cor0);
-   text-align: center;
-   text-shadow: 2px 2px 10px black;
+header{
+    background-image: url(fundo.jpg);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header > img{
+    padding-left: 50px;
+    margin-left: 60px;
+    
 }
 
 header > p{
-
-   color: var(--cor1);
-   text-align: center;
-   margin-top: 50px;
-}    
-
-         
-
-
-header > a > img:hover{
-   border: 2px solid var(--cor2);
-   cursor: pointer;
+    text-align: center;
 
 }
 
-h6{
-   text-align: center;
-   padding: 6px;
-
+header > nav > a{
+    position: relative;
+    font-family: monospace;
+    text-decoration: none;
+    text-shadow: 2px 2px 9px 9px black;
+    color: rgb(255, 255, 255);;
+    left: 50px;
+    top: 15px;
+    padding-top: 6px;
+    padding-bottom: 11px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-header > nav > h6 > a{
-   color: var(--cor0);
-   text-decoration:none;
-   text-align: center;
-   padding: 1px;
-   
-   
+header > nav > a:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);;
+    transition: 0.6s;
+    border-radius: 2px 2px;
 }
 
-header > nav > h6 > a:hover{ 
-   color: var(--cor3);
-   text-decoration: underline;
-
-}   
-
-header > h3{text-align: center;
-   margin-left: 50px;
+header > nav > a > img{
+    background: black;
 }
-
-
-
 
 main{
-   background-size:50%;
-   font-family:"chiller";
-   text-align:center;
-
+    
+    background-image: url(fundo.jpg);
+    background-size: 500%;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    border: -25px solid white;
 }
 
-main > h3{
-   font-family:"chiller";
-   color: white;
-   text-align: center;
-   background-color: black;
-   box-shadow: 2px 2px 8px black;
-   border: 1px solid white;
-   border-radius: 2px;
+abbr{
+    text-decoration: none;
+    
 }
 
-
-main > p{
-   
-   color: var(--cor2);
-   text-align: center;
+img{
+    border: 2px solid white;
 }
 
-
-
-main > div > div > h2{ 
-   text-justify: 2px;
-   text-indent: 2px;
-   color: var(--cor0);
-}
-
-main > div > .prod1{
-   float: left;
-   width: 33.33%;
-   height: 900%;
-   
-}
-
-main > div > .prod2{
-   float: right;
-   width: 33.33%;
-   
-}
-
-main > div > .prod3{
-   float: left;
-   width: 33.33%;
-   padding-bottom: 20px;
-  
-   
-}
-
-main > video{
-   
-   text-align: center;
-   border-top: 1px dashed white;
-   border-bottom: 1px dashed white;
-   pointer-events: stroke;
+img:hover{
+    border: 2px solid rgb(255, 0, 0);
+    transition: 1.0s;
+    
 }
 
 main > h1{
-   
-   text-align: center;
-   color: rgb(255, 255, 255);
-   text-shadow: 2px 2px 6px black;
-   border-radius: 2px 2px 2px 2px;
-   box-shadow: 2px 2px 6
-   px black;
+    float: center;
 }
 
-main > aside > ul > li > a{
-   
-   color: white;
-   text-align: left;
-   margin-right: 3%;
-
+a{
+    text-decoration: none;
+    color: white;
 }
+
+a:hover{
+    background: white;
+    color: black;
+    transition: 0.6s;
+    border-radius: 2px 2px 2px 2px;
+    padding: 4px;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.Chilld{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+     
+    
+ }
+
+
+ 
+
 
 footer{
-   
-   font-size: 5px;
-   text-align: center;
-   border-radius: 2px 2px 2px 2px;
-}
-
-div{color: wheat;}
-
-footer > h6{
-   background-color: rgb(47, 47, 49);
-   font-family: "Times New Roman";
-   font-style: italic;
-   font-size: 12px;
-   color: var(--cor0);
-   margin: 30px -5px -30px -10px;
-   padding-right: 10%;
-
-   
-}
-
-footer > h6 > a{
-   text-decoration: none;
-   color: var(--cor1);
-   font-family: "corbel";
+    background: black;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
 
 }
 
-footer > h6 > a:hover{
-   color: var(--cor3);
-   text-decoration: underline;
-   padding: none;
+footer > a {
+    color: white;
 }
 
-footer > h6{
-   padding: 5px;
-   font-family: "consolas";
-   font-size: 10;
-   text-shadow: 2px 2px 2px black;
-}
+.bt{   background-color:#c00000;
+    color:#ffffff;	
+    width:100px;
+    height:25px;   
+    border:0px;
+    cursor:pointer;
+ }
+
+ input:hover,select:hover,textarea:hover{border:2px solid #0000ff}
+ input:focus,select:focus,textarea:focus{background-color:#ff8080}
+ 
