@@ -339,6 +339,11 @@ main h2{
     color: #cf7806;
 }
 
+.sete img:hover{
+    transform: scale(1.3);
+
+}
+
 footer{
     width: 100%;
     height: 20px;
