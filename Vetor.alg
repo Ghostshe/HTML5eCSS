@@ -346,6 +346,8 @@ se(co = 2)entao
    
       fimse
       fimse
+      
+      
 
 
 // Colera
@@ -376,6 +378,40 @@ se(co = 5)entao
 
 
 fimse
+
+// Alzheimer
+      
+      se(co = 10)entao
+         escreval("escolheu Alzheimer ok...")
+         escreval("A doença de Alzheimer é a perda progressiva da função mental, caracterizada pela degeneração do tecido do cérebro, incluindo a perda de células nervosas, a acumulação de uma proteína anormal chamada beta-amiloide e o desenvolvimento de tranças neurofibrilares.")
+         escreval("Normalmente sente-se os seguintes sintomas:" )
+         escreval("----------------------------------------")
+         escreval("Perda de memória")
+         escreval("Problemas em usar a linguagem")
+         escreval("Mudanças na personalidade")
+         escreval("Desorientação")
+         escreval("Problemas ao fazer tarefas diárias habituais")
+         escreval("Comportamento perturbador ou inapropriado")
+         escreval("------------------------------------")
+         escreval("Tem sentido todos ou alguns desses sintomas sintomas[S/N]?")
+         leia(R)
+         escreval("____________")
+         limpatela
+         se(R = "S") ou (R = "s")entao
+            limpatela
+            escreval("TRATAMENTO:")
+            escreval("[Doutor]: O Sr.", nome., " O tratamento para o Alzheimer é feito para controlar e os sintomas, retardar o agravamento da degeneração cerebrarl provocada pela doença e inclui o uso de remédios, como Donepezila, Rivastigmina ou Memantina indicados pelo nerurologista psiquiatra ")
+            escreval("Medicamentos")
+            escreval("Musicoterapia")
+            escreval("Psicotrapia")
+            escreval("Terapia Ocupacional")
+            escreval("Fisioterapia")
+         senao
+            se(R = "N") ou (R = "n")entao
+               Escreval("Então o Sr(a). ", nome, " Tenha um bom dia.")
+            fimse
+         fimse
+      fimse
 
 // Asma
 se(co = 12)entao
