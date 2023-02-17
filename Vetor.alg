@@ -114,6 +114,7 @@ senao
       se(R = "S")ou (R = "s")entao
          escreval("[Doutor]: O Sr.", nome, " para trata-la deve beber Soro pode ser caseiro ou visite um centro médico ou hospital para aumentar os liquidos que forem desperdiçado com a diarreia ,e também deve beber [2 a 3 comprimidos por dia]")
       fimse
+      fimse
 
 
    senao
@@ -198,7 +199,7 @@ Fimalgoritmo
 
 
 
-
+____________________________________________________________
 
 
 
@@ -243,26 +244,33 @@ fimalgoritmo
 // Quadro dos testes de doenças
 
 fimse
-escreval("---------------------------------")
-escreval("Teste para as seguintes Sintomas/Doenças")
-escreval("---------------------------------")
-escreval("Código 1 - Febre")
-escreval("---------------------------------")
-escreval("Código 2 - Tuberculose")
-escreval("---------------------------------")
-escreval("Código 3 - COVID-19")
-escreval("---------------------------------")
-escreval("Código 4 - Coléra")
-escreval("---------------------------------")
-escreval("Código 5 - Díarreia")
-escreval("---------------------------------")
-
-
-
-escreval("Código 12 - Asma")
-escreval("---------------------------------")
-escreval("Actualização brevemente")
-escreval("---------------------------------")
+escreval("------------------------------------------------------")
+escreval("Teste para as seguintes Doenças e analise dos sintomas")
+escreval("------------------------------------------------------")
+escreval(" Código 1 - Febre")
+escreval("------------------------------------------------------")
+escreval(" Código 2 - Tuberculose")
+escreval("------------------------------------------------------")
+escreval(" Código 3 - COVID-19")
+escreval("------------------------------------------------------")
+escreval(" Código 4 - Coléra")
+escreval("------------------------------------------------------")
+escreval(" Código 5 - Diabete")
+escreval("------------------------------------------------------")
+escreval(" Código 6 - Gastrite")
+escreval("------------------------------------------------------")
+escreval(" Código 7 - Desnutrição")
+escreval("------------------------------------------------------")
+escreval(" Código 8 - Gengivite")
+escreval("------------------------------------------------------")
+escreval(" Código 9 - Hipertensão")
+escreval("------------------------------------------------------")
+escreval(" Código 10 - Alzheimer")
+escreval("------------------------------------------------------")
+escreval(" Código 11 - Câncer")
+escreval("------------------------------------------------------")
+escreval(" Código 12 - Asma")
+escreval("------------------------------------------------------")
 
 // Verificar o código do teste
 // Febre
@@ -312,24 +320,32 @@ se(co = 1)entao
    fimse
 fimse
 
-// Malaria
+// Tuberculose
 se(co = 2)entao
-   escreval("Escolheu Malária ok...")
-   escreval("Normalmente sente-se os seguintes sintomas:" )
-   escreval("------------------------------------")
-   escreval("")
-   escreval("")
-   escreval("")
-   escreval("")
-   escreval("")
-   escreval("------------------------------------")
-   escreval("Tem sentido todos ou alguns desses sintomas sintomas[S/N]?")
-   leia(R)
-   escreval("____________________________________")
-   se(R = "S")entao
-      escreval("[Doutor]: O Sr.", nome, " ")
-   fimse
-fimse
+      escreval("Escolheu Tuberculose ok...")
+      escreval("A tuberculose é uma doença infeciosa que afeta principalmente os pulmões. Esta infecção pulmonar causa sintomas como febre, tosse, expetoração, perda de peso, dor no peito, entre outros.")
+      escreval("____________________")
+      escreval("Os sinais e sintomas da tuberculose ativa são: ")
+      escreval("1ª-Tosse com duração de três ou mais semanas")
+      escreval("2ª-Expetoração com sangue")
+      escreval("3ª-Dor no peito ou dor com respiração ou tosse, vulgarmente definida como “pontada” e “dor nas costas”")
+      escreval("4ª-Perda de peso involuntária")
+      escreval("5ª-Fadiga (cansaço)")
+      escreval("6ª-Febre, embora o doente com tuberculose nem sempre tenha febre associada")
+      escreval("7ª-Suor noturno (transpiração durante a noite)")
+      escreval("8ª-Arrepios")
+      escreval("9ª-Perda de apetite")
+      escreval("10ª-Rouquidão ou dor de garganta (tuberculose laríngea)")
+      escreval("----------------------------------------------------------")
+      escreval("Tem sentido todos ou alguns desses sintomas sintomas[S/N]?")
+      leia(R)
+      escreval("____________________")
+      se(R = "S")ou (R = "s")entao
+      
+         escreval("[Doutor]: O Sr.", nome, "  Dve beber duas cápsulas de vermelhas que contém remédios Rifampicina e Isoniazida e quatro comprimidos brancos que contém Pirazinamida")
+   
+      fimse
+      fimse
 
 
 // Colera
