@@ -1,11 +1,13 @@
 @charset "utf 8";
-
-
+	@font-face {
+    font-family: 'california';
+    src: url(ArizonaHeatwave-K7eA7.ttf) format(truetype);
+	font-style: italic;
+   }
+	/*  // Header   */
     html{
-	padding: 0;
-        margin: 0;
-    }
-
+	scroll-behavior: smooth;
+	}
     body{
         padding: 0;
         margin: 0;
@@ -130,7 +132,7 @@
             margin-top: 150px;
             text-shadow: -20px 7px 20px rgba(0, 0, 0, 0.671);
             font-size: 80pt;
-            font-family: sans-serif;
+            font-family: 'california';
             text-align: center;
     }
 
@@ -153,6 +155,8 @@
        transform: scale(1.3);
    
    }
+   
+   /*  // Main  */
 
    .container1{
     display: flex;
@@ -162,26 +166,13 @@
     width: 100%;
     box-shadow: 20px 20px 200px 200px black;
    }
+   
+   .container1 > .mo{
+	   margin-top: 10%;
+   }
+   
 
-   .container1 > a{
-    background-size: 100%;
-    text-decoration: none;
-    margin-top: 5%;
-}
-
-.container1 > a:hover{
-    transition: 0.5s;
-    transform: scale(1.1);
-    display: block;
-}
-
-.container1 > a > .mo{
-    
-    box-shadow: inset 2px 2px 200px 400px rgb(118 124 126 / 7%);
-    
-}
-
-.container1 > a > .mo > .um{
+.container1 > .mo > .um{
     background-image: url(back-tablet.jpg);
     background-repeat: no-repeat;
     background-color: rgba(247, 245, 245, 0.692);
@@ -194,59 +185,66 @@
     margin-left: 85px;
 }
 
-.container1 > a > .mo > .um > h1{
+.container1 > .mo > .um > h1{
     font-family: monospace;
     font-size: 20pt;
     padding: 18%;
-    color: rgba(7, 158, 218, 0.829);
+    color: #44bbA4;
 }
 
-.container1 > a >.mo > .dois{
+.container1 > .mo > .dois{
     width: 200px;
     height: 100px;
     
 }
 
-.container1 > a > .mo > .um > .dois > p{
+.container1 > .mo > .um > .dois > p{
     width: 100%;
     text-indent: 5px;
     text-decoration: none;    
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'california';
     font-weight: bold;
     font-style: italic;
     color: rgb(253, 253, 253);
     padding: 3%;
 }
 
-.container1 > .p1{
-    position: flex;
-    background-color: black;
-    width: 100%;
-    height: 500px;
-    margin-top: 100px;
-}
-
-.container1 > .p1 > .image{
-    position: relative;
-    left: 20px;
-    width: 100%;
-    height: 300px;
-    border: 3px 0px solid white;
-}
-
-.container1 > .p1 > .image > img{
-    width: 20%;
-    height: 200px;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.container1 > a{
+.container1 > .mo > .um > .dois > .b{
+	padding: 15px;
     text-decoration: none;
-    margin-top: 5%;
+    margin-top: 3%;
+    background-color: #44bbA4;
+    margin-left: 7.7%;
+    border-radius: 4px 4px;
+    position: absolute;
+    color: white;
+	box-shadow: 2px 2px 20px 2px #00000047;
 }
 
-.container1 > a > .mo > .tres{
+.container1 > .mo > .um > .dois > .b:hover{
+	transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.container1 > .mo > .tres > .quatro > .b{
+	padding: 15px;
+    text-decoration: none;
+    margin-top: 20%;
+    background-color: #44bbA4;
+    margin-left: 40%;
+    border-radius: 4px 4px;
+    position: absolute;
+    color: white;
+	box-shadow: 2px 2px 20px 2px #00000047;
+}
+
+
+.container1 > .mo > .tres > .quatro > .b:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.container1 > .mo > .tres{
     background-image: url(back-tablet.jpg);
     background-repeat: no-repeat;
     background-color: rgba(247, 245, 245, 0.692);
@@ -258,20 +256,20 @@
     box-shadow: inset 2px 2px 200px 400px rgb(7 158 218 / 10%);;
 }
 
-.container1 > a > .mo > .tres > h1{
+.container1 > .mo > .tres > h1{
     font-family: monospace;
     font-size: 20pt;
     padding: 18%;
-    color: rgba(7, 158, 218, 0.829);
+    color: #44bbA4;
 }
 
-.container1 > a >.mo > .quatro{
+.container1 > .mo > .quatro{
     width: 200px;
     height: 100px;
     
 }
 
-.container1 > a > .mo > .tres > .quatro > p{
+.container1 > .mo > .tres > .quatro > p{
     width: 100%;
     text-indent: 5px;
     text-decoration: none;
@@ -280,11 +278,60 @@
     font-size: 10pt;
 }
 
+.container1 > .outro{
+	display: flex;
+	margin-top: 10%;
+	background-color: #258EA6;
+	padding-left: 5%;	
+}
+
+.container1 > .outro > .bgvideo{
+	width: 50%;
+	position: relative;
+	right: 100px;
+	z-index: -100%;
+}
+
+.container1 > .outro > p{
+	position: relative;
+	right: 120px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 50px;
+	width: 100%;
+	color: white;
+}
+
+.container1 > .outros{
+	display: flex;
+	background-image: url(back-tablet.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	box-shadow: inset 2px 2px 200px 400px rgb(0 0 0 / 0.57);
+	
+}
+
+.container1 > .outros > p{
+	margin: 10%;
+	background-color: white;
+	border-radius: 2px 2px;
+	padding: 3%;
+	box-shadow: inset 2px 2px 200px 400px rgb(0 0 0 / 0.57);
+	color: white;
+}
+
+.container1 > .outros > p:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+/*   // Footer  */
+
 .caixam{
     background-color: #000000f2;
     margin: 0;
     padding: 0;
-    margin-top: 10%;
     width: 100%;
     height: 450px;
     text-align: center;
@@ -305,13 +352,13 @@
     color: white;
     margin: 2%;
     padding: 5px;
-    background-color: #222A68;
+    background-color: #44bbA4;
     border-radius: 4px 4px;
 
 }
 
 .caixam > .t > a:hover{
-	background-color: #222A88;
+	background-color: #44bbA8;
 }
 
 .caixam > .cor{
@@ -320,3 +367,4 @@
     background-color: black;
     color: white;
 }
+
