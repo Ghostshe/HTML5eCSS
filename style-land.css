@@ -244,6 +244,7 @@
     font-family: 'over';
     font-size: 16pt;
 	padding: 18%;
+    padding-bottom: 10%;
     color: #44bbA4;
 }
 
@@ -330,6 +331,7 @@
 }
 .container1 > .outro{
 	display: flex;
+        Flex: wrap;
 	margin-top: 10%;
 	background-color: #258EA6;
 	padding-left: 5%;	
@@ -356,7 +358,6 @@
 
 .container1 > .outros{
 	display: flex;
-        Flex: wrap;
 	background-image: url(back-tablet.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -393,14 +394,14 @@
 }
 
 .container1 > .grand > img{
-	transform: scale(0.5);
+	transform: scale(0.8);
 	width: 50%;
-	box-shadow: 20px 100px 50px #000000cf;
+	box-shadow: 20px 80px 50px #000000cf;
 }
 
 .container1 > .grand > p{
 	font-size: 10px;
-	margin-top: 25%;
+	margin-top: 45%;
 }
 
 .caixam{
