@@ -196,9 +196,9 @@
 .container1 > .mo > .um > .dois > .b{
 	padding: 15px;
     text-decoration: none;
-    margin-top: 9%;
+    margin-top: 15%;
     background-color: #44bbA4;
-    margin-left: 15%;
+    margin-left: 20%;
     border-radius: 4px 4px;
     position: absolute;
     color: white;	
@@ -260,7 +260,6 @@
     color: rgb(253, 253, 253);
     padding-left: 3%;
     padding-right: 6%;
-	padding-bottom: 3%;
 	font-size: 10px;
 }
 
@@ -316,9 +315,9 @@
 .container1 > .mo > .cinco > .seis > .b{
 	padding: 15px;
     text-decoration: none;
-    margin-top: 8%;
+    margin-top: 15%;
     background-color: #44bbA4;
-    margin-left: 15%;
+    margin-left: 20%;
     border-radius: 4px 4px;
     position: absolute;
     color: white;	
