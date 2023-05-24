@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .banner{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slider{
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+        }
+
+        #slideimg{
+            width: 100%;
+            height: 100%;
+	    z-index: -100;
+        }
+
+        .overlay{
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+            position: absolute;
+            top: 0;
+
+        }
+    </style>
+</head>
+<body onload="slider()">
+    
+    
+
+            <div class="banner">
+                <div class="slide">
+                <img src="wallpaper002.jpg" alt="" id="slideimg">
+                </div>
+                <div class="overlay">
+                    <h1>Color</h1>
+                </div>
+            </div>
+
+            <script>
+                var sildeimg = document.getElementById("slideimg");
+                var images = new Array(
+                    "wallpaper002.jpg",
+                    "back-tablet.jpg",
+                    "wallpaper002.jpg",
+                    "back-tablet.jpg"
+                );
+
+                len = images.length;
+                var i = 0;
+
+                function slider(){
+                    if(i > len-1){
+                        i = 0;
+                    }
+                    sildeimg.src = images[i];
+                    i++;
+
+                    setTimeout('slider()', 3000);
+                            }
+
+
+            </script>
+
+</body>
+</html>

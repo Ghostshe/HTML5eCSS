@@ -113,7 +113,7 @@
         color: rgb(255, 255, 255);
         margin-top: 280px;
         text-shadow: -20px 7px 20px rgb(0 0 0 / 67%);
-        font-size: 50pt;
+        font-size: 70pt;
         padding-left: 0px;
         text-align: center;
     }
@@ -138,7 +138,7 @@
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
-        font-size: 10px;
+        font-size: 15px;
         color: white;
         padding-top: 150px;
         
@@ -196,9 +196,9 @@
 .container1 > .mo > .um > .dois > .b{
 	padding: 15px;
     text-decoration: none;
-    margin-top: 15%;
+    margin-top: 9%;
     background-color: #44bbA4;
-    margin-left: 30%;
+    margin-left: 15%;
     border-radius: 4px 4px;
     position: absolute;
     color: white;	
@@ -213,7 +213,7 @@
 .container1 > .mo > .tres > .quatro > .b{
 	padding: 8px;
     text-decoration: none;
-    margin-top: 5%;
+    margin-top: 17%;
     background-color: #44bbA4;
     margin-left: 38%;
     border-radius: 4px 4px;
@@ -244,7 +244,6 @@
     font-family: 'over';
     font-size: 16pt;
 	padding: 18%;
-    padding-bottom: 10%;
     color: #44bbA4;
 }
 
@@ -261,7 +260,8 @@
     color: rgb(253, 253, 253);
     padding-left: 3%;
     padding-right: 6%;
-	font-size: 8px;
+	padding-bottom: 3%;
+	font-size: 10px;
 }
 
 .container1{
@@ -316,9 +316,9 @@
 .container1 > .mo > .cinco > .seis > .b{
 	padding: 15px;
     text-decoration: none;
-    margin-top: 15%;
+    margin-top: 8%;
     background-color: #44bbA4;
-    margin-left: 30%;
+    margin-left: 15%;
     border-radius: 4px 4px;
     position: absolute;
     color: white;	
@@ -331,10 +331,9 @@
 }
 .container1 > .outro{
 	display: flex;
-        flex-wrap: wrap;
 	margin-top: 10%;
 	background-color: #258EA6;
-	padding: 3%;	
+	padding-left: 5%;	
 }
 
 .container1 > .outro > .bgvideo{
@@ -394,14 +393,14 @@
 }
 
 .container1 > .grand > img{
-	transform: scale(0.8);
+	transform: scale(0.5);
 	width: 50%;
-	box-shadow: 20px 80px 50px #000000cf;
+	box-shadow: 20px 100px 50px #000000cf;
 }
 
 .container1 > .grand > p{
-	font-size: 10px;
-	margin-top: 45%;
+	font-size: 8pt;
+	margin-top: 25%;
 }
 
 .caixam{
