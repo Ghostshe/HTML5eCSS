@@ -113,7 +113,7 @@
         color: rgb(255, 255, 255);
         margin-top: 280px;
         text-shadow: -20px 7px 20px rgb(0 0 0 / 67%);
-        font-size: 70pt;
+        font-size: 16pt;
         padding-left: 0px;
         text-align: center;
     }
@@ -138,7 +138,7 @@
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
-        font-size: 15px;
+        font-size: 12pt;
         color: white;
         padding-top: 150px;
         
