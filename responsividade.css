@@ -112,7 +112,7 @@ PSEUDO-ELEMENT
 	flex-direction: row;
 	width: 100%;
     height: 1220px;
-	padding-top: 15%;
+	padding-top: 1%;
 	color: black;
 	flex-wrap: wrap;
 	transition: width .20s, height .3;
@@ -135,7 +135,7 @@ PSEUDO-ELEMENT
 	width: 30%;
 	height: 1200px;
 	color: white;
-	
+	padding-top: 15%;
 }
 
 .container1 >.chilld .redes > .rum, .rdois, .rtres, .rquatro, .rcinco{
