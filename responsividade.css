@@ -25,7 +25,7 @@ marquee{
 }
 
 body .te{
-	margin-top: 110%;
+	margin-top: 95%;
 	font-size: 1.8em;
 }
 
@@ -112,7 +112,7 @@ PSEUDO-ELEMENT
 	flex-direction: row;
 	width: 100%;
     height: 1220px;
-	padding-top: 1%;
+	padding-top: 15%;
 	color: black;
 	flex-wrap: wrap;
 	transition: width .20s, height .3;
