@@ -124,7 +124,7 @@ PSEUDO-ELEMENT
 	flex-direction: row;
 	width: 100%;
     height: 1080px;
-	padding-top: 1%;
+	padding-top: 15%;
 	color: black;
 	
 	transition: width .20s, height .3;
