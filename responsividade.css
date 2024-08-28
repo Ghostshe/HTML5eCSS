@@ -32,7 +32,7 @@ body .te{
 /*container/header*/
 
 .container{
-	background-image: url(imagens/edetudotrap.png);
+	background-image: url(edetudotrap.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
