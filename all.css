@@ -42,7 +42,7 @@ body .te{
 /*container/header*/
 
 .container{
-	background-color: black;
+	background-color: url(edetudotrap.png);
 	background-size: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
